@@ -1,0 +1,358 @@
+*, *:before, *:after {
+  -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+ }
+
+html
+{
+	font-size:100%;
+}
+
+body
+{
+	-webkit-font-smoothing:antialiased;
+	color:#cdcd1d;
+	font-family:Lora, serif;
+	font-size:18px;<html><head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" type="text/css" href="demo.css"/> 
+<title>My New Webpage</title>
+</head>
+<body>
+  <style> 
+    @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap'); 
+    body{ 
+    font-family: 'Quicksand', sans-serif; 
+    background: linear-gradient( to right, rgb(25, 42, 42) 0%, deepskyblue 100%); 
+    color: white; 
+    } 
+    .logo{ 
+    text-align: center; 
+    font-size: 50px; 
+    margin-top: 100px; 
+    } 
+    body b{ 
+    font-size: 60px; 
+    } 
+    </style> 
+    
+    <script> 
+    for(let i=0; i<10; i++){ 
+    console.log("Value of i = " + i); 
+    } 
+    </script>
+<div class="wrapper clearfix">
+  <div class="left">
+
+    <div class="name-hero">
+      <div class="me-img"></div>
+      <p align="C:\Users\dhars\Dropbox\PC\Downloads\dars.jpeg"><img src="C:\Users\dhars\Dropbox\PC\Downloads\dars.jpeg" height=150px width=150px/></p>
+
+
+       <div class="name-text">
+        <h1>Darshan<em>.A</em></h1>
+        <p>7/386 Alagarmalai,Thalaikundha post,Ooty,The Nilgris-643005</p>
+        <a href="mailto:darsidarshan003@gmail.com" target="_blank"><p id="email">Contact ME:darsidarshan003.com</p></a>
+        <p>9080111394</p>
+
+      </div>
+
+    </div>
+
+  </div>
+  <div class="right">
+
+    <div class="inner">
+      <h3>CAREER OBJECTIVE</h3>
+            <p>
+            <ul>
+                <li>A highly motivated software engineer seeking to get a position in a reputed company, where I can use my skills and knowledge to learn new things and grow as a software developer.</li>
+            </p>
+            <h3>ACADEMIC DETAILS</h3>
+            <p id="DEGREE">DEGREE-COMPUTER SCIENCE AND ENGINEERING</p>
+            <ul>
+                <li>CSI COLLEGE OF ENGINEERING,OOTY </li>
+                <li>CGPA:8.20</li>
+                <li>PUSUING</li>
+                </ul>
+            <p id="12TH">12TH STD-COMPUTER SCIENCE-STATEBOARD</p>
+            <ul>
+                <li>ST.JOSEPH'S HIGHER SECONDARY SCHOOL,OOTY</li>
+                <li>57.47%</li>
+                <LI>2019</LI>
+            </ul>
+            
+            <p id="10TH">10TH STD-STATE-BOARD</p>
+            <UL>
+                <LI>ST.JOSEPH'S HIGHER SECONDARY SCHOOL,OOTY</LI>
+                <LI>63.20%</LI>
+                <LI>2017</LI>
+            </UL>
+        </p> <h3>PROJECT DETAILS</h3>
+        
+            <p>
+            <ul>
+                <li>
+                <p><span id="project">Title</span> – INTELLIGENT VIDEO DATA SECURITY</li></p>
+                <li>
+                <span id="project">Description</span> - real-time video applications-such as surveillance applications-able to contribute to increasing public safety by reducing physical crimes.with yolo v3</li>
+                <li>
+                <span id="project">Duration</span> - 3-MONTHS</li>
+                <li>
+                <span id="project">Role</span> - Initializing,Recording,Monitoring,Filtering and Investigation</li>
+                <li>
+                <span id="project">Team Size</span> – 3-Members</li>
+                <li>
+                
+            </ul>
+            <p>
+            <ul>
+              <li>
+              <p><span id="project">Title</span> – PLASMA DONOR APPLICATION</li></p>
+              <li>
+              <span id="project">Description</span> - "PLASMA DONOR" deals with notifying the concerned donor upon request by the Receipient in need of Plasma. This project provides quick access to donors for an immediate requirement of blood. In case of an emergency/surgery, blood procurement is always a major problem which consumes a lot of time</li>
+              <li>
+              <span id="project">Duration</span> - 3-MONTHS</li>
+              <li>
+              <span id="project">Role</span> - Write,Test,Debug and Maintain Application</li>
+              <li>
+              <span id="project">Team Size</span> – 5-Members</li>
+              <li>
+              
+          </ul></p>
+        <section>
+        <h1>Technical Skills</h1>
+        <ul class="skill-set">
+          <LI>python</LI>
+          <li>PHP</li>
+          <li>CSS</li>
+          <li>HTML5</li>
+          <li>Responsive Web Design</li>
+        </ul>
+      </section>
+      <section>
+        <h1>References</h1>
+        <p>William Grand | <em>Grand Interactive, llc. | CEO</em></p>
+        <p>(617) 448-0910 | wgrand@grandinteractive.com</p>
+        <p>Eric Chauvin | <em>PadMatcher Inc. | CEO</em></p>
+        <p>(617) 448-0910 | eric@padmatcher.com</p>
+      </section>
+      <section>
+        <h1>Personal Interests</h1>
+        <ul class="skill-set">
+          <li>Teaching</li>
+          <li>Drawing</li>
+          <li>Story Writing</li>
+          <li>Communication</li>
+          <li>Health & Nutrition</li>
+          <li>Reading</li>
+        </ul>
+      </section>
+      <section>
+        <div class="handmade">
+          <p>handmade by <em>Darshan A</em></p>
+        </div>
+      </section>
+    </div>
+
+  </div>
+
+</div>
+</body></html>
+	font-weight:400;
+	line-height:1.4;
+	text-rendering:optimizeLegibility;
+}
+
+.skill-set li:hover
+{
+	background:#5b6c75;
+}
+
+h1
+{
+	color:rgba(20, 1, 1, 0.75);
+	
+}
+h3
+{
+    text-decoration: underline;
+	color: #010001;
+    }
+.wrapper
+{
+	height:100%;
+}
+
+.left
+{
+	background-color:rgba(0,0,0,.025);
+	border-right:1px solid rgba(0,0,0,.05);
+	float:right;
+	height:100%;
+	margin-left:-1px;
+	min-width:256px;
+	position:fixed;
+	width:33.33%;
+  
+}
+
+.right
+{
+	float:right;
+	height:100%;
+	position:relative;
+	width:66.66%;
+}
+
+
+.name-hero
+{
+	background:rgba(0,0,0,.001);
+	bottom:0;
+	height:290px;
+	left:0;
+	margin:auto;
+	position:absolute;
+	right:0;
+	top:0;
+	width:85%;
+}
+
+.me-img
+{
+	background:url(https://media-exp1.licdn.com/dms/image/C4E03AQGnLq_IB_mf8Q/profile-displayphoto-shrink_400_400/0/1631022739752?e=1648684800&v=beta&t=eICUjHeH_g9GQEItmEMK1j2gCADwqfjrlccSD_5za58) no-repeat center center ;
+	background-size:100%;
+  background-position:0px;
+	border-radius:100%;
+	height:150px;
+	margin:0 auto;
+	position:relative;
+	width:150px;
+}
+
+.name-hero h1
+{
+	font-family:Open Sans, sans-serif;
+	font-size:1.5em;
+	text-align:center;
+}
+
+.name-hero h1 em
+{
+	color:rgba(0,0,0,.3);
+	font-style:normal;
+	font-weight:700;
+}
+
+.name-hero p
+{
+	color:rgba(0,0,0,.75);
+	font-size:.75em;
+	line-height:1.5;
+	margin:0 8px 0 0;
+	text-align:center;
+}
+
+.name-hero .name-text
+{
+	margin:0 auto;
+	width:85%;
+}
+
+.inner
+{
+	margin:0 auto;
+	max-width:975px;
+	padding:3em;
+}
+
+.inner h1
+{
+	font-size:1.75em;
+}
+table
+{
+    border: 1px dashed black;
+    }
+td
+{
+    padding: 1px;
+    border: 1px solid #130a03;
+    }
+
+.inner p
+{
+	color:rgba(215, 238, 101, 0.5);
+}
+
+.inner p em
+{
+	color:rgba(0,0,0,1);
+	font-style:normal;
+}
+
+.inner section
+{
+	margin:100px auto;
+}
+
+ul
+{
+	list-style-type:none;
+	margin-top:-10px;
+	max-width:570px;
+	padding:0;
+}
+
+.skill-set li
+{
+	background:rgba(0,0,0,.75);
+	border-radius:5px;
+	color:#FFF;
+	display:inline-block;
+	list-style:none;
+	margin:15px 15px 0 0;
+	padding:10px;
+	text-align:justify;
+}
+
+@media screen and (max-width: 48em) {
+	.right,.left
+	{
+		float:none;
+    position:relative !important;
+		width:100%;
+    min-height:500px;
+	}
+  .handmade {
+  text-align:center !important;
+  margin-top:0px !important;
+}
+
+@media screen and (max-width: 75em) {
+    body
+{ font-size:16px;}
+}
+
+@media screen and (max-width: 60em) {
+    body
+{ font-size:14px;}
+}
+.clearfix:after {
+   content: " "; /* Older browser do not support empty content */
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
+}
+.handmade {
+  text-align:right;
+  margin-top:100px;
+}
+.handmade em {
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 1.25em;
+  margin-left:5px;
+}
