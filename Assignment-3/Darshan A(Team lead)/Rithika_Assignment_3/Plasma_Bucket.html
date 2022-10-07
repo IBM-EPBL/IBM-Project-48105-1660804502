@@ -1,0 +1,38 @@
+<html>
+    <head>
+      <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>displaying bucket images</title>
+        <link rel="stylesheet"  href="https://plasma123.s3.jp-tok.cloud-object-storage.appdomain.cloud/stylesheet.css">
+    </head>
+    <body>
+
+       
+        <img src="https://plasma123.s3.jp-tok.cloud-object-storage.appdomain.cloud/plasma1.png" ><h2 style="text-align:center;">Image 1</h2></br>
+       
+        <img src="https://plasma123.s3.jp-tok.cloud-object-storage.appdomain.cloud/plasma2.png" ><h2 style="text-align:center;">Image 2</h2> </br>
+        
+        <img src="https://plasma123.s3.jp-tok.cloud-object-storage.appdomain.cloud/plasma3.png"  ><h2 style="text-align:center;">Image 3</h2></br>
+        
+        <img src="https://plasma123.s3.jp-tok.cloud-object-storage.appdomain.cloud/plasma4.png"  ><h2 style="text-align:center;">Image 4 </h2></br>
+        
+        <img src="https://plasma123.s3.jp-tok.cloud-object-storage.appdomain.cloud/plasma5.png"  ><h2 style="text-align:center;">Image 5</h2></br>
+        
+
+        <script>
+          window.watsonAssistantChatOptions = {
+            integrationID: "3b3219fb-ca16-4c5c-b48f-7dbc6b39ba62", 
+            region: "au-syd", 
+            serviceInstanceID: "5b7eeb86-e7c8-4bca-b845-6ed60a02ea3a", 
+            onLoad: function(instance) { instance.render(); }
+          };
+          setTimeout(function(){
+            const t=document.createElement('script');
+            t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+            document.head.appendChild(t);
+          });
+        </script>
+   
+    </body>
+</html>
