@@ -9,7 +9,7 @@
 
                                           PLASMA DONOR APPLICATION:
                                           
-   VIDEO LINK:                                        
+   VIDEO LINK: https://youtu.be/tIpt2ETY-nc                                     
                                           
                                           CATEGORY:
                                           
